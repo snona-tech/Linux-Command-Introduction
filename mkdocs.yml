@@ -1,0 +1,83 @@
+site_name: IT勉強会 ～ WSL編 ～
+
+# repo_url: https://gitlab.ps.casareal.co.jp/nonaka/jfrog-environment-construction
+# repo_name: nonaka/jfrog-environment-construction
+
+theme:
+  name: material
+  language: ja
+
+  favicon: assets/favicon.png
+  icon:
+    logo: fontawesome/brands/linux
+    # repo: fontawesome/brands/git-alt
+
+  palette:
+    - scheme: slate
+      primary: blue grey
+      accent: deep purple
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+    - scheme: default
+      primary: default
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+
+  features:
+    - navigation.instant
+    - navigation.tracking
+    # - navigation.tabs
+    # - navigation.tabs.sticky
+    # - navigation.expand
+    # - navigation.indexes
+    # - navigation.sections
+    # - navigation.top
+    # - toc.integrate
+    - content.tabs.link
+
+plugins:
+  - search:
+      lang: ja
+
+markdown_extensions:
+  - admonition
+  - footnotes
+  - def_list
+  - attr_list
+  - md_in_html
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - toc:
+      permalink: true
+
+nav:
+  - 内容:
+      - 00. 概要: index.md
+      - 01. Linux:
+          - Linuxとは: section/linux/about.md
+      - 02. WSL:
+          - WSLとは: section/wsl/about.md
+          - WSLの有効化: section/wsl/enabled.md
+          - WSLの設定: section/wsl/settings.md
+      - 03. Linuxコマンド:
+          - コマンドとは: section/linux_command/about.md
+          - 実践: section/linux_command/practice.md
