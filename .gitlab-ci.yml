@@ -5,7 +5,8 @@ pages:
     - pip install mkdocs-material
     - pip install fontawesome-markdown
     - mkdocs build --site-dir public
-  when: manual
   artifacts:
     paths:
       - public
+  only:
+    - main
