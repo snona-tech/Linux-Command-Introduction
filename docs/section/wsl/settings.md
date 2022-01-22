@@ -3,7 +3,7 @@
 初回起動時に任意のユーザ名とパスワードを設定する（半角英数記号）。
 
 <figure markdown>
-  ![Start Ubuntu](/assets/images/wsl_start.drawio.svg){ width="700" }
+  ![Start Ubuntu](../../assets/images/wsl_start.drawio.svg){ width="700" }
   <figcaption>Ubuntu初回起動時</figcaption>
 </figure>
 

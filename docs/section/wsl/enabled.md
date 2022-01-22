@@ -16,7 +16,7 @@
 4. Windows 再起動
 
 <figure markdown>
-  ![Enabled WSL](/assets/images/wsl_enable_settings.drawio.svg){ width="550" }
+  ![Enabled WSL](../../assets/images/wsl_enable_settings.drawio.svg){ width="550" }
   <figcaption>WSL機能の有効化</figcaption>
 </figure>
 
@@ -65,7 +65,7 @@ PowerShellを起動してコマンドを実行する。
 正常にインストールできると、Winメニューに最近追加としてUbuntuのアプリが追加される。
 
 <figure markdown>
-  ![Install WSL](/assets/images/wsl_install.drawio.svg){ width="300" }
+  ![Install WSL](../../assets/images/wsl_install.drawio.svg){ width="300" }
   <figcaption>インストールされたWSL（Ubuntu）</figcaption>
 </figure>
 

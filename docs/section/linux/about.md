@@ -30,6 +30,6 @@ Linuxカーネルを用いたOS（狭義ではカーネルを指すこともあ�
 [*Linus Benedict Torvalds*](https://ja.wikipedia.org/wiki/%E3%83%AA%E3%83%BC%E3%83%8A%E3%82%B9%E3%83%BB%E3%83%88%E3%83%BC%E3%83%90%E3%83%AB%E3%82%BA) によって1991年に公開された。
 
 <figure markdown>
-  ![Linux](/assets/images/linux_logo.svg.png){ width="100" }
+  ![Linux](../../assets/images/linux_logo.svg.png){ width="100" }
   <figcaption>Linux</figcaption>
 </figure>

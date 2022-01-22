@@ -8,7 +8,7 @@ WSLとWSL2は仕組みが異なるため本来は区別が必要だが、断り�
 [^1]: 詳細は公式ページ「[Windows Subsystem for Linux に関するドキュメント](https://docs.microsoft.com/ja-jp/windows/wsl/)」を参照。
 
 <figure markdown>
-  ![WSL](/assets/images/wsl_image.jpeg){ width="500" }
+  ![WSL](../../assets/images/wsl_image.jpeg){ width="500" }
   <figcaption>WSL</figcaption>
 </figure>
 
@@ -23,6 +23,6 @@ WSLとWSL2は仕組みが異なるため本来は区別が必要だが、断り�
 VMは単体では存在せず、VMをホストする物理PC上に存在する。
 
 <figure markdown>
-  ![VM](/assets/images/vm.drawio.svg){ width="500" }
+  ![VM](../../assets/images/vm.drawio.svg){ width="500" }
   <figcaption>VMのイメージ</figcaption>
 </figure>

@@ -7,7 +7,7 @@
 !!! note "bash"
     シェルの一種。Bourne Shell(sh)を改良したもの。
     <figure markdown>
-    ![Shell](/assets/images/shell.drawio.svg){ width="500" }
+    ![Shell](../../assets/images/shell.drawio.svg){ width="500" }
     <figcaption>シェル</figcaption>
     </figure>
 
